@@ -211,10 +211,12 @@ function attachButtonHandlers() {
     container.innerHTML = `<h1>Капец, мне очень грустно за что ты так 🥲😞</h1>`;
     setTimeout(() => {
       container.innerHTML = `
-        <h1>Ахахахах, ты что, думала я разрешу тебе такое сделать? 😏</h1>
-        <img src="/photo/IMAGE 2026-02-07 00:40:58.jpg" 
-             alt="Мем" class="meme">
-      `;
+  <div class="center-screen">
+    <h1>Ахахахах, ты что, думала я разрешу тебе такое сделать? 😏</h1>
+    <img src="meme.jpg" alt="Мем" class="meme">
+  </div>
+`;
+      
       setTimeout(() => {
         resetScreen();
       }, 5000);
